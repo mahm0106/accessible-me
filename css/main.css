@@ -1,16 +1,12 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #cdcdcd;
+  color: #2b2b2b;
   margin: 0;
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
@@ -24,7 +20,7 @@ img {
   width: 100%;
 }
 
-.main-nav ul {
+nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -32,24 +28,28 @@ img {
   padding: 0;
 }
 
-.main-nav ul li {
+nav ul li {
+  
   flex: 1;
   text-align: center;
 }
 
-.main-nav ul li a {
+nav ul li a {
+
   display: block;
-  color: inherit;
+  color: #2b2b2b;
   text-decoration: none;
   font-size: 1.25rem;
 }
 
-form input,
-form textarea {
+form input, form textarea {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  color: #2b2b2b; 
+  background-color: #fff; 
+  border: 1px solid #cdcdcd; 
 }
 
 form textarea {
@@ -60,8 +60,9 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
+  background: #2b2b2b;
+  color: #fff;
+  border: 2px solid #2b2b2b;
   padding: 1rem;
   text-transform: uppercase;
 }
@@ -69,3 +70,4 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
